@@ -122,7 +122,8 @@
     <!-- Product Catalog menus and sub menus -->
     <menuitem id="pos_config_menu_catalog"
         name="Products"
-        parent="point_of_sale.menu_point_root"/>
+        parent="point_of_sale.menu_point_root"
+        sequence="12"/>
     <menuitem id="menu_pos_products"
         action="product_template_action_pos_product"
         parent="point_of_sale.pos_config_menu_catalog"

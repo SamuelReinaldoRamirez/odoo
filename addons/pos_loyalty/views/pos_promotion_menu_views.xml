@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="menu_discount_loyalty_type_config"
+        action="loyalty.loyalty_program_discount_loyalty_action"
+        name="Discount &amp; Loyalty"
+        parent="point_of_sale.pos_menu_promotions"
+        groups="point_of_sale.group_pos_manager"
+        sequence="1"
+    />
+</odoo>
