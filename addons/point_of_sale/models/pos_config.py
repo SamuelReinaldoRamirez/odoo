@@ -504,6 +504,10 @@ class PosConfig(models.Model):
             return True
         return False
 
+    def close_current_session(self):
+        session = self.env["pos.session"].browse(self.current_session_id.id)
+        return session.action_pos_session_closing_control()
+
     # Methods to open the POS
     def _action_to_open_ui(self):
         if not self.current_session_id:
