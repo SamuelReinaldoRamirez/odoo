@@ -44,6 +44,12 @@
         parent="menu_point_config_product"
         sequence="11"/>
 
+    <menuitem id="pos_menu_promotions"
+        name="Promotions"
+        parent="menu_point_root"
+        sequence="11"/>
+
+
     <record id="action_pos_configuration" model="ir.actions.act_window">
         <field name="name">Settings</field>
         <field name="res_model">res.config.settings</field>
